@@ -1,0 +1,16 @@
+.single-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    line-height: 58px;
+}
+.single-list h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #155E1E;
+}
+.single-list p{
+    font-size: 22px;
+    font-weight: 400;
+}

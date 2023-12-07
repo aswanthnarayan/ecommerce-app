@@ -11,10 +11,12 @@ import './OurServices.css'
 function OurServices() {
   return (
     <div className="service-card">
+
         <Card2 src={image1} heading='Easy Plant Kits' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.'/>
-        <Card2 src={image2} heading='Easy Plant Kits' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.' />
-        <Card2 src={image3} heading='Easy Plant Kits' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.'/>
-        <Card2 src={image4} heading='Easy Plant Kits' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.'/>
+        <Card2 src={image2} heading='Landscaping' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.' />
+        <Card2 src={image3} heading='Plant Gift' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.'/>
+        <Card2 src={image4} heading='Balcony & Terrace
+Gardens' para='A small plant in the room or at the work desk can help considerably in maintaining fresh air around you. So with a plant gift, you are actually gifting them good health along with years of beauty, companionship, and care.'/>
     </div>
   )
 }
