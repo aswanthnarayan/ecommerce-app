@@ -15,7 +15,7 @@ function ProductReview() {
         <p>The world’s first subscription-based Indoor Plant Company – Harvestay is revolutionising the way people buy and care for their plants. With this innovative model, customers can subscribe to a monthly delivery of a curated selection of healthy and vibrant plants that</p>
       </div>
       <div className="video-image">
-        <img src={thumbnail} alt="" className='main-image' />
+        <img src={thumbnail} alt="" className='main-image'/>
         <div className="play-button">
           <img src={eclipse2} alt="" className="eclipse2" />
           <img src={eclipse3} alt="" className="eclipse3" />
