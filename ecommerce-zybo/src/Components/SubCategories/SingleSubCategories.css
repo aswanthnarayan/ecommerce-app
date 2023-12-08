@@ -1,0 +1,32 @@
+
+.SingleSubCategories {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 300px;  
+    margin-bottom: 20px; 
+  }
+  
+  .SingleSubCategories::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120%;
+    height: 30%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+    z-index: -1;
+  }
+  
+  .SingleSubCategories p {
+    margin-bottom: 10px;
+  }
+  
+  .SingleSubCategories:hover::before{
+    height: 60%;
+    background-color: #98C34733;
+  }
+  

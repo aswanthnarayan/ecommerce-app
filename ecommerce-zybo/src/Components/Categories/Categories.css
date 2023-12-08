@@ -1,0 +1,33 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.main-categories{
+    display: flex;
+    flex-direction: column;
+}
+.main-categories>p{
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.button-container button{
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

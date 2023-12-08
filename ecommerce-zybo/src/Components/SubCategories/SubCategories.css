@@ -1,0 +1,16 @@
+.main-SubCategories{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.main-SubCategories{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-SubCategories>p{
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 500;
+    margin-left: 70px;
+}

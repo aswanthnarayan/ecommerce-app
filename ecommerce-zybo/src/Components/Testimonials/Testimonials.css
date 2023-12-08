@@ -1,0 +1,22 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px; 
+
+  }
+  
+  .testimonial-text {
+    
+    width: 700px;
+  }
+  .testimonial-text p{
+    margin-top: 20px; 
+
+  }
+  
+  .lady-2 {
+    margin-top: 20px; 
+  }
+  
