@@ -7,7 +7,7 @@ function SubCategories() {
   return (
     <div className='SubCategories'>
         <div className="main-SubCategories">
-            <p>Categories</p>
+            <p>Sub Categories</p>
             <div className="content-container">
                 <SingleSubCategories imgSrc={cat1Img} nameOfImg='Plants'/>
                 <SingleSubCategories imgSrc={cat1Img} nameOfImg='Plants'/>

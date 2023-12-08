@@ -1,19 +1,32 @@
 .testimonials {
     display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .plant5-container {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+  }
+
+  .plant5-image {
+    width: auto; 
+    height: 570px; 
+  }
+  .testimonial-content {
+    text-align: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 30px; 
-
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .testimonial-text {
-    
+  .testimonial-content p{
     width: 700px;
-  }
-  .testimonial-text p{
-    margin-top: 20px; 
-
+    margin-top: 20px
   }
   
   .lady-2 {

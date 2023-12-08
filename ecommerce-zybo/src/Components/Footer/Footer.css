@@ -1,0 +1,22 @@
+/* Footer.css */
+
+.footer {
+    background-color: #C9C9C9;
+    height: 100px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .links a {
+    margin-right: 30px;
+    text-decoration: none;
+  }
+
+  .icons,.links{
+    margin-left: auto;
+  }
+ .icon{
+    margin-right:30px;
+ }
