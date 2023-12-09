@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../../assets/green-logos-famous-brands-1 1.png';
 import searchIcon from '../../../assets/icons/green-logos-famous-brands-1 1.png'
 import contactIcon from '../../../assets/icons/Component 4.png'
 import cartIcon from '../../../assets/icons/Component 2.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 function Navbar() {
+
+const[mobileMenu , setMobileMenu]=useState();
+
+const toggleMobileMenu = () => {
+  setMobileMenu(!mobileMenu);
+};
+
   return (
-    <div className='navbar'>
+  // <div className="navigation">
+      <div className='navbar'>
+    <div className="logo-image">
     <img className='logo' src={logo} alt="" />
+    </div>
     <nav >
         <ul className="links">
           <li><a href="#">Home</a></li>
@@ -26,6 +39,10 @@ function Navbar() {
         </ul>
       </div>
   </div>
+  // <div className="mobile-nav">
+  //       <a href="#" className='icon'><FontAwesomeIcon icon={faBars} /></a>
+  //     </div>
+  // </div>
   )
 }
 

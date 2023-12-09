@@ -8,11 +8,13 @@
     display: flex;
     align-items: center;
 }
+
 .navbar{
     justify-content: space-around;
     align-items: center;
     border-radius: 2rem;
-    width: 90%;
+    width: 1220px;
+    height: 94px;
     position: absolute;
     top: 10%;
     left: 50%;
@@ -21,20 +23,22 @@
     color: #fff;
     padding: 12px;
 }
-.logo{
-    height: 50px;
-}
+
 .navbar ul{
     list-style: none;
 }
 
-ul li a{
-    margin: 15px;
-    text-decoration: none;
+ul li {
+    margin: 10px;
 }
 
-
-@media (min-width:480px)  { 
-
-    
+/* .mobile-nav{
+    display: none;
+    position: absolute;
+    top: 2%;
+    right: 5%;
 }
+.mobile-nav a{
+    font-size: 30px;
+
+} */

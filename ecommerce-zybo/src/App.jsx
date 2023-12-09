@@ -14,7 +14,7 @@ import Testimonials from './Components/Testimonials/Testimonials';
 
 function App() {
   return (
-    <>
+   <div className="app">
       <Banner />
       <RecentProducts/>
       <ProductReview/>
@@ -25,7 +25,7 @@ function App() {
       <Categories/>
       <SubCategories/>
       <Footer/>
-    </>
+      </div>
   )
 }
 
