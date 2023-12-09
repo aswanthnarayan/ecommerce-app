@@ -13,7 +13,7 @@ function Categories() {
             <p>Categories</p>
           <div className="content-container">
             <SingleCategorie imgSrc={cat1Img} nameOfImg='Plants'/>
-            <SingleCategorie imgSrc={cat2Img} nameOfImg='Pots'/>
+            <SingleCategorie imgSrc={cat1Img} nameOfImg='Pots'/>
             <SingleCategorie imgSrc={cat3Img} nameOfImg='Combos'/> 
             <div className="button-container">
               <button>See more</button>
